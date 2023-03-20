@@ -89,7 +89,7 @@ loginpage()
 
         </div>
         <div className="image-container">
-            <img src="https://th-i.thgim.com/public/incoming/hy1gx4/article66435367.ece/alternates/FREE_1200/IMG_0893.jpg" alt="" />
+            <img src="https://fastly.picsum.photos/id/254/536/354.jpg?hmac=HI8J-HWbYztb20pxIW36rKEkg4wqIbYPmayDvAk3ehA" alt="" />
 
         </div>
     </div>
