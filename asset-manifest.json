@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React_Mct3_Project/static/css/main.2d7eaf86.css",
-    "main.js": "/React_Mct3_Project/static/js/main.714b242f.js",
-    "static/js/787.3d29cb54.chunk.js": "/React_Mct3_Project/static/js/787.3d29cb54.chunk.js",
-    "index.html": "/React_Mct3_Project/index.html",
-    "main.2d7eaf86.css.map": "/React_Mct3_Project/static/css/main.2d7eaf86.css.map",
-    "main.714b242f.js.map": "/React_Mct3_Project/static/js/main.714b242f.js.map",
-    "787.3d29cb54.chunk.js.map": "/React_Mct3_Project/static/js/787.3d29cb54.chunk.js.map"
+    "main.css": "/mctReactProject/static/css/main.54c50f26.css",
+    "main.js": "/mctReactProject/static/js/main.edbe5414.js",
+    "static/js/787.3d29cb54.chunk.js": "/mctReactProject/static/js/787.3d29cb54.chunk.js",
+    "index.html": "/mctReactProject/index.html",
+    "main.54c50f26.css.map": "/mctReactProject/static/css/main.54c50f26.css.map",
+    "main.edbe5414.js.map": "/mctReactProject/static/js/main.edbe5414.js.map",
+    "787.3d29cb54.chunk.js.map": "/mctReactProject/static/js/787.3d29cb54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d7eaf86.css",
-    "static/js/main.714b242f.js"
+    "static/css/main.54c50f26.css",
+    "static/js/main.edbe5414.js"
   ]
 }
