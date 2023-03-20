@@ -41,7 +41,7 @@ export const Productdetails = () => {
                                     <h3>Product Price</h3>
                                     <p>${productdetails.price}</p>
                                 </div>
-                                <div className="pname">
+                                <div className="pname description">
                                     <h3>Product Description</h3>
                                     <p>{productdetails.description}</p>
                                 </div>

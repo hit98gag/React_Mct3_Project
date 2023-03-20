@@ -3,10 +3,12 @@ import './Users.css'
 import { useSelector } from "react-redux";
 
 
+
 export const Users = () => {
+    
     const [gender, setGender] = useState("all")
     const data = useSelector((state) => state);
-    console.log(data.usersData)
+    // console.log(data.usersData)
     const [userdata, setUserdata] = useState([...data.usersData])
 
     useEffect(() => {
@@ -100,7 +102,7 @@ export const Users = () => {
 										})
 								: userdata.map((ele) => {
 										return (
-                                            <div className='usermaincontainer'>
+                                            <div className='usermaincontainer' >
                                             <div className="userheader userdata">
                                             <div className="image-con userdatacontent">
                                                 <img src={ele && ele.picture.large} alt="" />

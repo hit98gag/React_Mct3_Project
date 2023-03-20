@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import './Product.css'
 
 export const Product = () => {
- const{ category} =useParams()
+//  const{ category} =useParams()
 const [productcategory, setProductcategory] = useState([])
 // const [catdetailes, setCatdetailes] = useState([])
 const [categories, setCategories] = useState("electronics")
@@ -28,12 +28,13 @@ const [productlist, setProductlist] = useState([])
         const res= await fetch(`https://fakestoreapi.com/products/category/${categories}`)
         // console.log(res)
         const data= await res.json()
-        console.log(data)
+        // console.log(data)
         setProductlist(data)
 
     }
     
   return (
+    <div className='productcontainer'>
     <div className='product'>
         <div className="product-sidebar">
             {
@@ -53,7 +54,7 @@ const [productlist, setProductlist] = useState([])
         <div className='product_maincontainer'>
             <ul>
             {productlist.map((ele)=>{
-                console.log(ele)
+                // console.log(ele)
 
                 return <Link to={`/productdetails/${ele.id}`}><li>{ele && ele.title}</li></Link>
                 
@@ -62,6 +63,7 @@ const [productlist, setProductlist] = useState([])
 
         
         </div>
+    </div>
     </div>
   )
 }

@@ -36,7 +36,6 @@ function App() {
           <Route path='/home' element={ <Protected Component={Home} />}></Route>
           <Route path='/products' element={ <Protected Component={Product} />}>
           <Route path='/products:category' element={ <Protected Component={Product} />}></Route>
-
           </Route>
           <Route   path="/productdetails/:id" element={<Productdetails /> }/>
           <Route path='/users' element={ <Protected Component={Users} />}></Route>
