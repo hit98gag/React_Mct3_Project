@@ -7,7 +7,7 @@ export const Login = (props) => {
     const navigate= useNavigate()
     const loginpage =()=>{
         if(props.email !=="" && props.password !=="" && props.checkinput !== false){
-            if(props.email ==="Noah" && props.password ==="1234" && props.checkinput === true){
+            if(props.email ==="Hitesh" && props.password ==="1234" && props.checkinput === true){
                 localStorage.setItem('login',true)
                 navigate('/home')  
                 props.setEmail("")
